@@ -1,11 +1,12 @@
 # PencilSketcher
-PencilSketcher is a Python application which can convert your images to pencil sketches.
+PencilSketcher is a Python application that can convert your images to pencil sketches.
 
 # Install
 ```sh
 git clone https://github.com/nikinazaran/PencilSketcher.git
 ```
 # Run
+Make sure to put the input image in the project directory.
 ```sh
 python Sketcher.py input.jpg -o output.jpg
 ```
