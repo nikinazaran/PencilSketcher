@@ -9,7 +9,7 @@ def show_image(img):
     plt.show()
 
 
-parser = argparse.ArgumentParser("sketcherrrr")
+parser = argparse.ArgumentParser("Sketcher")
 parser.add_argument("InputImage", help="Output image name.")
 parser.add_argument("-o", help="Output image name.", default='final.jpg')
 args = parser.parse_args()
